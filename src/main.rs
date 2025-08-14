@@ -1,4 +1,4 @@
-use clap::{Arg, Command, ArgMatches};
+use clap::{Arg, Command};
 
 // Importation des fonctions de conversion des différents modules
 mod longueur;

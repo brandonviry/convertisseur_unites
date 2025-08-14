@@ -2,7 +2,18 @@
 name = "convertisseur_unites"
 version = "0.1.0"
 edition = "2021"
+authors = ["VIRY Brandon"]
+description = "Un convertisseur d'unités en ligne de commande pour longueur, masse et température"
+license = "Aucune"
+repository = "https://github.com/brandonviry/convertisseur_unites.git"
+
+[[bin]]
+name = "convertisseur_unites"
+path = "src/main.rs"
+
+[lib]
+name = "convertisseur_unites"
+path = "src/lib.rs"
 
 [dependencies]
 clap = { version = "4.2", features = ["derive"] }
-
